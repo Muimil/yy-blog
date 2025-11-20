@@ -1,0 +1,10 @@
+name = "yy-blog"
+type = "javascript"
+account_id = "ec4dac00fad0cb5309cc4404df9f4897"
+workers_dev = true
+route = ""
+zone_id = ""
+
+[env.production]
+name = "yy-blog-prod"
+route = "yy-blog.pages.dev/*"
